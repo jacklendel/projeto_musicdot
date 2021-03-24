@@ -1,0 +1,70 @@
+
+.cabecalho {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	box-sizing: border-box;
+
+	text-align: center;
+	font-size: 0.6rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.23em;
+	
+	color: #fff;
+}
+
+.cabecalho__logo {
+	padding: 1.5em 0;
+	width: 14.5em;
+}
+
+.cabecalho__menu {
+	display: flex;
+	justify-content: space-evenly; /*Os	elementos terão	um	espaçamento	igual em ambos os lados.*/
+	flex-wrap: wrap; /* Os elementos que não cabem mais no espaço lateral recebem uma quebra de linha, ou seja, vão para a linha debaixo.*/
+	background: #272b3a87;
+
+}
+
+.cabecalho__item-menu {
+	display: inline-block;
+}
+
+.cabecalho__item-menu a {
+	display: inline-block;
+	padding: 1.86em 1.42em
+}
+
+@media (min-width: 640px) {
+	.cabecalho {
+		padding-top: 0;
+		padding-bottom: 0;
+		display: flex;
+		justify-content: space-between; /*O	primeiro elemento fica totalmente à esquerda do flex container e o último fica totalmente à direita. O restante dos elementos ficam distribuídos com um espaçamento igual entre eles.*/
+		align-items: center;
+	}
+
+	.cabecalho__logo {
+		padding: 2.5em 0;
+	}
+
+	.cabecalho__menu {
+		background-color: transparent;
+	}
+
+	.cabecalho__item-menu--matricular {
+		margin-left: 1.42em;
+
+		border-radius: 6px;
+		background: #e93d50;
+		margin-left: 1.42em;
+	}
+
+	.cabecalho__item-menu--matricular a {
+		padding: 1.8em 3.5em;
+	}
+
+}
+
+
