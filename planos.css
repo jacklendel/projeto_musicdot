@@ -26,3 +26,75 @@
 	font-weight: 700;
 	margin-bottom: 2rem;
 }
+
+.plano__card {
+	background-color: #f76148;
+	border-radius: 8px;
+	margin-bottom: 1.3rem;
+	color: #fff;
+	padding: 4rem 1rem 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-shadow: 0 0 .8rem .1rem rgba(0, 0, 0, .2);
+	background-repeat: no-repeat;
+	background-position: top 1.5rem center;
+}
+
+.card--anual {
+	background-image: url(img/simbolo-musidot-branco.svg);
+}
+
+.card--semestral {
+	background-image: url(img/simbolo-musidot-dark.svg);
+}
+
+.plano__titulo {
+	margin: 8px 0;
+}
+
+.plano__card p + p {
+	font-weight: 300;
+	margin-top: .2rem;
+	letter-spacing: 1.5px;
+}
+
+.plano__titulo, .plano__titulo + p {
+	font-size: 1rem;
+	font-weight: 500;
+}
+
+.valor--destaque {
+	font-size: 2rem;
+	font-weight: 700;
+}
+
+.plano__card span {
+	font-weight: 500;
+}
+
+.cards__botao {
+	color: #f76148;
+	text-transform: uppercase;
+	letter-spacing: 1.8px;
+	font-weight: 600;
+	border-radius: 8px;
+	margin-top: .8rem;
+	padding: 1rem 2rem;
+	background-color: #fff;
+	box-shadow: 0 0 .8rem .1rem rgba(0, 0, 0, .2)
+}
+
+.card--anual {
+	position: relative;
+	z-index: 2;
+}
+
+.plano--destaque {
+	color: #f76148;
+	font-weight: 600;
+	text-transform: uppercase;
+	
+}
+
+
