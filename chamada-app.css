@@ -27,7 +27,7 @@
 	font-weight: 600;
 }
 
-.chamada__aplicativo__botao--wrapper {
+.chamada__aplicativo__botao--wr {
 	display: flex;
 	justify-content: space-evenly;
 }
